@@ -24,7 +24,7 @@ function FormComponent({ images,  currentIndex, updateTagline, updateTextTheme, 
         event.preventDefault();
         // Process the form 2 data here
   //      console.log('Form 2 submitted:', input3);
-        const url = 'https://main--adobe-screens-brandads--anagarwa.hlx.page/content/screens/gw2023/images1690792405764/first1690792406515'; // Replace with your desired URL
+        const url = 'https://stage-daily.projectx.corp.adobe.com/id/urn:aaid:sc:VA6C2:f223af62-05a2-388e-bb60-1efd8295de5b'; // Replace with your desired URL
         window.open(url, '_blank');
     };
 
@@ -64,22 +64,22 @@ function FormComponent({ images,  currentIndex, updateTagline, updateTextTheme, 
                 <>
             <div className="gap" />
             <form className="form form2" onSubmit={handleSubmitForm2}>
-                <label>Tagline:</label>
-                <input
-                    type="text"
-                    value= {tagline}
-                    onChange={handleTaglineChange}
-                />
-                <label>Text Decoration Prompt:</label>
-                <input
-                    type="text"
-                    value={theme}
-                    onChange={handleThemeChanges}
-                />
+                {/*<label>Tagline:</label>*/}
+                {/*<input*/}
+                {/*    type="text"*/}
+                {/*    value= {tagline}*/}
+                {/*    onChange={handleTaglineChange}*/}
+                {/*/>*/}
+                {/*<label>Text Decoration Prompt:</label>*/}
+                {/*<input*/}
+                {/*    type="text"*/}
+                {/*    value={theme}*/}
+                {/*    onChange={handleThemeChanges}*/}
+                {/*/>*/}
                 <div className="buttonSection">
-                    <div><button type="submit" className="previewButton">Preview</button></div>
+                    <div><button type="submit" className="previewButton">Open in Express - Screens</button></div>
 
-                <div><button type="button" className="publishButton">Publish</button></div>
+                {/*<div><button type="button" className="publishButton">Publish</button></div>*/}
                 </div>
             </form>
                 </>

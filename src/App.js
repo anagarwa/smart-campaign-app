@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import image0 from './images/redfirst.png'
-import image1 from './images/redoutput.png';
-import image2 from './images/redoutput2.png';
+import image0 from './images/first.png'
+import image1 from './images/third.png';
+import image2 from './images/second.png';
 import image3 from './images/redoutput3.png';
 import image4 from './images/blueoutput.png';
 import image5 from './images/blueoutput2.png';
@@ -56,8 +56,8 @@ function App() {
     const showImages = () => {
         const  updatesImages = [
             { src: image0, tagline: 'Engineered for Comfort', theme: 'red solid' },
-            { src: image2, tagline: 'X CRAZYFAST.1 FG', theme: 'red solid' },
-            { src: image3, tagline: 'Layered Mesh Support', theme: 'red solid' },
+            { src: image1, tagline: 'X CRAZYFAST.1 FG', theme: 'red solid' },
+            { src: image2, tagline: 'Layered Mesh Support', theme: 'red solid' },
         ];
         setImages(updatesImages);
         setCurrentIndex(0);
