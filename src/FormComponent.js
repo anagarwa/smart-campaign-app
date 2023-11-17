@@ -14,10 +14,11 @@ function FormComponent({ images,  currentIndex, updateTagline, updateTextTheme, 
 
     const handleSubmitForm1 = (event) => {
         event.preventDefault();
-        // Process the form 1 data here
         console.log('Form 1 submitted:', input1, input2);
-        showImages();
-        setShowForm2(true);
+        setTimeout(() => {
+            showImages();
+            setShowForm2(true);
+        }, 10000);
     };
 
     const handleSubmitForm2 = (event) => {
