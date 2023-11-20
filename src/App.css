@@ -46,10 +46,21 @@
   height: 10%;
 }
 
+.form label {
+  margin-top: 10px;
+}
+
+.form1 button {
+  margin-top: 20px;
+}
 
 .form input {
   margin-bottom: 10px;
   padding: 5px;
+}
+
+.form1 textarea {
+  height: 50px;
 }
 
 .form button {
@@ -61,8 +72,10 @@
 }
 .buttonSection {
   display: flex;
+  justify-content: space-between;
 }
 
 .buttonSection div{
   padding: 20px;
+  margin-left: auto;
 }

@@ -53,7 +53,7 @@ function FormComponent({ images,  currentIndex, updateTagline, updateTextTheme, 
                 />
 
                 <label>Intent for Campaign:</label>
-                <input
+                <textarea
                     type="text"
                     value={input3}
                     onChange={(e) => setInput3(e.target.value)}

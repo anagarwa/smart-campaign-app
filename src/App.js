@@ -66,20 +66,20 @@ function App() {
     return (
         <div className="App">
             <div className="half">
-                <ImageGallery images={images}
-                              currentIndex={currentIndex}
-                              setCurrentIndex={setCurrentIndex}
-                              goToPreviousImage={goToPreviousImage}
-                              goToNextImage={goToNextImage}
-                />
-            </div>
-            <div className="half">
                 <FormComponent
                     images={images}
                     currentIndex={currentIndex}
                     updateTagline={updateTagline}
                     updateTextTheme={updateTextTheme}
                     showImages={showImages}
+                />
+            </div>
+            <div className="half">
+                <ImageGallery images={images}
+                              currentIndex={currentIndex}
+                              setCurrentIndex={setCurrentIndex}
+                              goToPreviousImage={goToPreviousImage}
+                              goToNextImage={goToNextImage}
                 />
             </div>
         </div>
